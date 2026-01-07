@@ -7,21 +7,14 @@ Uma configuração minimalista e elegante para o Fastfetch, otimizada para macOS
 
 ##  Características
 
-🎯 Design minimalista e limpo
-
-📦 Logo compacto da Apple
-
-🎨 Cores suaves e organizadas
-
-📊 Informações completas do sistema
-
-💾 Monitoramento de disco com uso e porcentagem
-
-🔋 Status da bateria com temperatura
-
-🖥️ Seções bem definidas: Hardware, Software, Environment e Time
-
-⚡ Formatação alinhada e consistente
+- 🎯 Design minimalista e limpo
+- 📦 Logo compacto da Apple
+- 🎨 Cores suaves e organizadas
+- 📊 Informações completas do sistema
+- 💾 Monitoramento de disco com uso e porcentagem
+- 🔋 Status da bateria com temperatura
+- 🖥️ Seções bem definidas: Hardware, Software, Environment e Time
+- ⚡ Formatação alinhada e consistente
 
 
 ## 📋 Pré-requisitos
@@ -133,14 +126,10 @@ O arquivo `config.jsonc` está bem comentado e organizado. Você pode personaliz
 }
 ```
 Placeholders disponíveis:
-
-{1} = Espaço usado
-
-{2} = Espaço total
-
-{3} = Porcentagem
-
-{9} = Sistema de arquivos (apfs, ext4, etc)
+- {1} = Espaço usado
+- {2} = Espaço total
+- {3} = Porcentagem
+- {9} = Sistema de arquivos (apfs, ext4, etc)
 
 
 - **Módulo da Bateria**: Com suporte a temperatura
@@ -152,54 +141,39 @@ Placeholders disponíveis:
     "temp": true  // Mostra temperatura da bateria
 }
 ```
+## 
 
 ## Seções
 
 ### Hardware Info
-Informações sobre o computador:
-
-PC/Host (modelo do Mac)
-
-CPU com ícone
-
-GPU com ícone
-
-Memória RAM com uso e porcentagem
-
-Disco com uso, total e porcentagem
+- Informações sobre o computador:
+- PC/Host (modelo do Mac)
+- CPU com ícone
+- GPU com ícone
+- Memória RAM com uso e porcentagem
+- Disco com uso, total e porcentagem
 
 ### Software Info
-Informações do sistema operacional:
-
-OS (sistema operacional e versão)
-
-Kernel (versão do Darwin)
-
-Packages (pacotes brew e brew-cask)
-
-Shell (shell utilizado)
+- Informações do sistema operacional:
+- OS (sistema operacional e versão)
+- Kernel (versão do Darwin)
+- Packages (pacotes brew e brew-cask)
+- Shell (shell utilizado)
 
 ### Environment
-Ambiente desktop:
-
-DE (Desktop Environment)
-
-Login Manager
-
-Window Manager
-
-WM Theme (tema do sistema)
-
-Terminal (aplicativo de terminal)
+- Ambiente desktop:
+- DE (Desktop Environment)
+- Login Manager
+- Window Manager
+- WM Theme (tema do sistema)
+- Terminal (aplicativo de terminal)
 
 ### Time
-Informações temporais:
-
-OS Age (idade da instalação do sistema)
-
-Uptime (tempo ligado)
-
-Date (data e hora atual)
+- Informações temporais:
+- OS Age (idade da instalação do sistema)
+- Uptime (tempo ligado)
+- Date (data e hora atual)
+## 
 
 ##  Paleta de Cores
 
@@ -208,7 +182,7 @@ As cores utilizadas seguem o esquema:
 - **Amarelo** (`yellow`): Software  
 - **Azul** (`blue`): Environment
 - **Magenta** (`magenta`): Time
-
+## 
 
 ### Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para:

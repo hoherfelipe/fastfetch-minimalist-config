@@ -1,148 +1,145 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "type": "builtin",
-        "height": 8,
-        "width": 12,
-        "padding": {
-            "top": 1,
-            "left": 2
-        }
-   },
-    "modules": [{
+        "type": "none"
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
             "type": "custom",
-            "format": "\u001b[90m┌─────────────────────────Hardware─────────────────────────┐"
+            "format": "\u001b[90m\u256d\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256e"
         },
         {
             "type": "host",
-            "key": " PC",
-            "keyColor": "green"
+            "key": "\u001b[90m\u2502\u001b[0m \ue28d ",
+            "keyColor": "green",
+            "format": "{2}"
+        },
+        {
+            "type": "command",
+            "key": "\u001b[90m\u2502\u001b[0m \uf007 ",
+            "keyColor": "green",
+            "text": "whoami"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524"
         },
         {
             "type": "cpu",
-            "key": "│ ├",
+            "key": "\u001b[90m\u2502\u001b[0m \uf2db ",
             "keyColor": "green"
         },
         {
             "type": "gpu",
-            "key": "│ ├󰍛",
+            "key": "\u001b[90m\u2502\u001b[0m \uf26c ",
             "keyColor": "green"
         },
         {
             "type": "memory",
-            "key": "│ ├",
+            "key": "\u001b[90m\u2502\u001b[0m \uf538 ",
             "keyColor": "green"
         },
         {
             "type": "disk",
-            "key": "│ ├",
+            "key": "\u001b[90m\u2502\u001b[0m \uf0a0 ",
             "keyColor": "green",
             "format": "{1} / {2} ({3}) - {9}"
         },
         {
-          "type": "battery",
-          "key": "│ ├󱊣",
-          "keyColor": "green",
-          "format": "{4}{?12} ({12} hours, {13} mins remaining){?} - {7} cycles - {6}",
-          "temp": true,
-          "percent": {
-             "green": 51,
-             "yellow": 11
-          }
+            "type": "battery",
+            "key": "\u001b[90m\u2502\u001b[0m \uf240 ",
+            "keyColor": "green",
+            "format": "{4} - {7} cycles - {6}",
+            "temp": true,
+            "percent": {
+                "green": 51,
+                "yellow": 11
+            }
         },
         {
             "type": "custom",
-            "format": "\u001b[90m└──────────────────────────────────────────────────────────┘"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[90m┌─────────────────────────Software─────────────────────────┐"
+            "format": "\u001b[90m\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524"
         },
         {
             "type": "os",
-            "key": " OS",
+            "key": "\u001b[90m\u2502\u001b[0m \uf179 ",
             "keyColor": "yellow"
         },
         {
             "type": "kernel",
-            "key": "│ ├",
+            "key": "\u001b[90m\u2502\u001b[0m \uf17c ",
             "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "│ ├󰏖",
+            "key": "\u001b[90m\u2502\u001b[0m \uf487 ",
             "keyColor": "yellow"
         },
         {
             "type": "shell",
-            "key": "│ └",
+            "key": "\u001b[90m\u2502\u001b[0m \uf120 ",
             "keyColor": "yellow"
         },
         {
             "type": "custom",
-            "format": "\u001b[90m└──────────────────────────────────────────────────────────┘"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[90m┌────────────────────────Environment───────────────────────┐"
+            "format": "\u001b[90m\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524"
         },
         {
             "type": "de",
-            "key": " DE",
+            "key": "\u001b[90m\u2502\u001b[0m \uf108 ",
             "keyColor": "blue"
         },
         {
             "type": "lm",
-            "key": "│ ├",
+            "key": "\u001b[90m\u2502\u001b[0m \uf090 ",
             "keyColor": "blue"
         },
         {
             "type": "wm",
-            "key": "│ ├",
+            "key": "\u001b[90m\u2502\u001b[0m \uf2d2 ",
             "keyColor": "blue"
         },
         {
             "type": "wmtheme",
-            "key": "│ ├󰉼",
+            "key": "\u001b[90m\u2502\u001b[0m \uf53f ",
             "keyColor": "blue"
         },
         {
             "type": "terminal",
-            "key": "│ └",
+            "key": "\u001b[90m\u2502\u001b[0m \uf120 ",
             "keyColor": "blue"
         },
         {
             "type": "custom",
-            "format": "\u001b[90m└──────────────────────────────────────────────────────────┘"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[90m┌───────────────────────────Time───────────────────────────┐"
+            "format": "\u001b[90m\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524"
         },
         {
             "type": "command",
-            "key": "󰔟 OS Age  ",
+            "key": "\u001b[90m\u2502\u001b[0m \uf017 ",
             "keyColor": "magenta",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+            "text": "birth=$(stat -f %B /); now=$(date +%s); echo $(( (now - birth) / 86400 )) days"
         },
         {
             "type": "uptime",
-            "key": "󰄉 Uptime  ",
+            "key": "\u001b[90m\u2502\u001b[0m \uf252 ",
             "keyColor": "magenta"
         },
         {
             "type": "datetime",
-            "key": " Date    ",
+            "key": "\u001b[90m\u2502\u001b[0m \uf073 ",
             "keyColor": "magenta"
         },
         {
             "type": "custom",
-            "format": "\u001b[90m└──────────────────────────────────────────────────────────┘"
+            "format": "\u001b[90m\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256f"
         },
         {
-            "type": "colors",
-            "paddingLeft": 2,
-            "symbol": "circle"
+            "type": "custom",
+            "paddingLeft": 8,
+            "format": "                   \u001b[33m\u15e7 \u001b[31m\u25cf \u001b[32m\u25cf \u001b[34m\u25cf \u001b[35m\u25cf \u001b[36m\u25cf \u001b[31m\u25cf \u001b[32m\u25cf"
         }
     ]
 }

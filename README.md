@@ -2,7 +2,8 @@
 
 Uma configuração minimalista e elegante para o Fastfetch, otimizada para macOS.
 
-<img width="1151" height="558" alt="image" src="https://github.com/user-attachments/assets/c2c24ccd-7ecc-47d6-834e-575fe298aaf7" />
+<img width="1151" height="558" alt="image" src="<img width="1206" height="1000" alt="image" src="https://github.com/user-attachments/assets/cf8598dc-31d6-4daa-bdfa-0933f2ec47ca" />
+" />
 
 
 
